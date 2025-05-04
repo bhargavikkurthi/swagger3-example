@@ -35,10 +35,10 @@ In other words:
 ```
 springdoc.swagger-ui.path=/bhargav-documentation
 ```
-* Adds a new endpoint at /bhargav-documentation
-* Keeps /swagger-ui/index.html accessible for backward compatibility
+* Adds a new endpoint at */bhargav-documentation*
+* Keeps */swagger-ui/index.html* accessible for backward compatibility
 
-Both URLs will work unless you explicitly block /swagger-ui/index.html via security config.
+Both URLs will work unless you explicitly block */swagger-ui/index.html* via security config.
 
 
 
