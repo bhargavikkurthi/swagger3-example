@@ -14,20 +14,20 @@ You will also learn how to configure Swagger API description and response behavi
 http://localhost:8080/swagger-ui/index.html
 ```
 
-By default, Swagger UI is available at  */swagger-ui/index.html*  
+By default, Swagger UI is available at `/swagger-ui/index.html`  
 However, in this project, we changed the Swagger UI path in application.properties to
 ```
 http://localhost:8080/bhargav-documentation
 ```
 
- If you want to revert it back to  */swagger-ui/index.html*, simply remove or comment out this configuration:
+ If you want to revert it back to `/swagger-ui/index.html`, simply remove or comment out this configuration:
  ```
 springdoc.swagger-ui.path=/bhargav-documentation
 ```
 
 
 ### Important Note
-SpringDoc does not disable  */swagger-ui/index.html* when setting *springdoc.swagger-ui.path*    
+SpringDoc does not disable `/swagger-ui/index.html` when setting `springdoc.swagger-ui.path`    
 Instead, it adds an additional path rather than replacing the default one  
 
 
@@ -35,10 +35,10 @@ In other words:
 ```
 springdoc.swagger-ui.path=/bhargav-documentation
 ```
-* Adds a new endpoint at */bhargav-documentation*
-* Keeps */swagger-ui/index.html* accessible for backward compatibility
+* Adds a new endpoint at `/bhargav-documentation`
+* Keeps `/swagger-ui/index.html` accessible for backward compatibility
 
-Both URLs will work unless you explicitly block */swagger-ui/index.html* via security config.
+Both URLs will work unless you explicitly block `/swagger-ui/index.html` via security config.
 
 
 
@@ -56,7 +56,7 @@ We customized the OpenAPI docs path in application.properties:
 springdoc.api-docs.path=/bhargav-api-docs
 ```
 
-This tells SpringDoc OpenAPI to serve the docs at */bhargav-api-docs* instead of the default */v3/api-docs*  
+This tells SpringDoc OpenAPI to serve the docs at `/bhargav-api-docs` instead of the default `/v3/api-docs`  
 
 Therefore, your API docs are now accessible at:
 ```
