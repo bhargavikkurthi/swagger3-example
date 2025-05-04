@@ -27,7 +27,7 @@ springdoc.swagger-ui.path=/bhargav-documentation
 
 
 ### Important Note
-SpringDoc does not disable  */swagger-ui/index.html* when setting springdoc.swagger-ui.path.  
+SpringDoc does not disable  */swagger-ui/index.html* when setting *springdoc.swagger-ui.path*    
 Instead, it adds an additional path rather than replacing the default one  
 
 
