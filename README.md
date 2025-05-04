@@ -14,20 +14,20 @@ You will also learn how to configure Swagger API description and response behavi
 http://localhost:8080/swagger-ui/index.html
 ```
 
-By default, Swagger UI is available at */swagger-ui/index.html*  
+By default, Swagger UI is available at  */swagger-ui/index.html*  
 However, in this project, we changed the Swagger UI path in application.properties to
 ```
 http://localhost:8080/bhargav-documentation
 ```
 
- If you want to revert it back to */swagger-ui/index.html*, simply remove or comment out this configuration:
+ If you want to revert it back to  */swagger-ui/index.html*, simply remove or comment out this configuration:
  ```
 springdoc.swagger-ui.path=/bhargav-documentation
 ```
 
 
 ### Important Note
-SpringDoc does not disable */swagger-ui/index.html* when setting springdoc.swagger-ui.path.  
+SpringDoc does not disable  */swagger-ui/index.html* when setting springdoc.swagger-ui.path.  
 Instead, it adds an additional path rather than replacing the default one  
 
 
